@@ -1,0 +1,88 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background: rgb(7,61,207);
+background: linear-gradient(90deg, rgba(7,61,207,1) 16%, rgba(26,159,210,1) 39%, rgba(6,202,217,1) 63%);
+}
+
+.imagen{
+   width: 100%;
+   height: 255px;
+   object-fit: cover;
+}
+
+.title-portfolio{
+   font-size: 38px;
+}
+
+.bienvenida-parrafo{
+   font-size: 24px;
+}
+
+.title-dwf{
+   font-size: 30px;
+}
+
+.descripcion{
+   font-size: 18px;
+}
+
+.contenedor-de-secciones{
+   text-align: center;
+   margin: 0 38px;
+   margin-bottom: 20px;
+}
+
+.contenedores{
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+
+@media (min-width:959px){
+   .contenedores{
+      display: flex;
+      gap: 44px;
+      flex-direction: row-reverse;
+   }
+   .seccion-dwf-1{
+      width: 370px;
+   }
+   .title-dwf{
+      font-size: 25px;
+      margin: 0px;
+   }
+   .descripcion{
+      font-size: 16px;
+      margin: 0px;
+   }
+   .link-github{
+      margin-top: 20px;
+   }
+   .textos-titulo{
+      margin: auto;
+   }
+}
+
+.seccion-dwf-1{
+   background-color: rgba(255, 255, 255, 0.882);
+   max-width: 402px;
+   margin: 0 auto;
+   justify-content: center;
+   border: solid;
+   margin-top: 50px;
+   border: solid 2px black;
+   border-radius: 4px;
+}
+
+.link-github{
+   text-align: end;
+   display: block;
+   margin-right: 10px;
+   text-decoration: none;
+   color: #51AFF3;
+}
